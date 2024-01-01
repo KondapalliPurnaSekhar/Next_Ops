@@ -1,4 +1,4 @@
-
+/*
 #create resource group
 resource "azurerm_resource_group" "rg" {
     name     = "${var.rgname}"
@@ -81,3 +81,4 @@ resource "azurerm_windows_virtual_machine" "main" {
     caching              = "ReadWrite"
   }
 }
+*/
