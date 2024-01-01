@@ -9,6 +9,5 @@ terraform {
 
 provider "azurerm" {
   # Configuration options
-skip_provider_registration = "true"
   features {}
 }
