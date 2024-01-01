@@ -1,4 +1,4 @@
-/*
+
 #create resource group
 resource "azurerm_resource_group" "rg" {
     name     = "${var.rgname}"
@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "rg" {
         Environment = "Terraform Demo"
     }
 }
-
+/*
 resource "azurerm_virtual_network" "vnet1" {
   name                = "${var.prefix}-10"
   resource_group_name = "${azurerm_resource_group.rg.name}"
